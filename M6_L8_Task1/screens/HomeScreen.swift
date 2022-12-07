@@ -10,7 +10,9 @@ import Firebase
 
 struct HomeScreen: View {
     @EnvironmentObject var session: SessionStore
+    @ObservedObject var database = RealtimeStore()
     @State var isLoading = false
+    
     func doSignOut(){
         isLoading = true
         if SessionStore().signOut() {
@@ -19,20 +21,29 @@ struct HomeScreen: View {
         }
     }
     
+    func apiContacts(){
+        isLoading = true
+        database.loadContacts(completion: {
+            isLoading = false
+        })
+    }
+    
     var body: some View {
         NavigationView{
             ZStack{
-                if let email = session.session?.email {
-                    Text("Welcome \(email)")
-                }
+                List{
+                    ForEach(database.items, id: \.self) { item in
+                        ContactCell(contact: item)
+                    }
+                }.listStyle(PlainListStyle())
                 if isLoading {
                     ProgressView()
                 }
+            }.onAppear{
+                apiContacts()
             }
                 .navigationBarItems(trailing: HStack{
-                    Button(action: {
-                        
-                    }, label: {
+                    NavigationLink(destination: AddContactScreen(), label: {
                         Image(systemName: "text.badge.plus").foregroundColor(.black)
                     })
                     Button(action: {
@@ -41,13 +52,13 @@ struct HomeScreen: View {
                         Image(systemName: "rectangle.portrait.and.arrow.right").foregroundColor(.black)
                     })
                 })
-                .navigationBarTitle("Posts", displayMode: .inline)
+                .navigationBarTitle("Contacts", displayMode: .inline)
         }
     }
 }
 
 struct HomeScreen_Previews: PreviewProvider {
     static var previews: some View {
-        HomeScreen()
+        HomeScreen().environmentObject(SessionStore())
     }
 }

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E36D8F2293FB4F80012E8B3 /* RealtimeStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E36D8F1293FB4F80012E8B3 /* RealtimeStore.swift */; };
+		0E36D8F4293FB7900012E8B3 /* Contact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E36D8F3293FB7900012E8B3 /* Contact.swift */; };
+		0E36D8F8293FB86F0012E8B3 /* AddContactScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E36D8F7293FB86F0012E8B3 /* AddContactScreen.swift */; };
+		0E36D8FB293FBC4C0012E8B3 /* ContactCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E36D8FA293FBC4C0012E8B3 /* ContactCell.swift */; };
 		0E695C27293F548B0007E608 /* StarterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E695C26293F548B0007E608 /* StarterScreen.swift */; };
 		0E695C29293F54960007E608 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E695C28293F54960007E608 /* HomeScreen.swift */; };
 		0E695C2B293F54A20007E608 /* SignInScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E695C2A293F54A20007E608 /* SignInScreen.swift */; };
@@ -14,6 +18,8 @@
 		0E695C33293F72D50007E608 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E695C32293F72D50007E608 /* User.swift */; };
 		0E695C36293F733F0007E608 /* SessionStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E695C35293F733F0007E608 /* SessionStore.swift */; };
 		0E695C38293F7A960007E608 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0E695C37293F7A960007E608 /* GoogleService-Info.plist */; };
+		0E85877A2940ECF500D819F6 /* StorageStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E8587792940ECF500D819F6 /* StorageStore.swift */; };
+		0E85877D2940F21600D819F6 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E85877C2940F21600D819F6 /* ImagePicker.swift */; };
 		0EF05428293F503F00DAEFDF /* M6_L8_Task1App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EF05427293F503F00DAEFDF /* M6_L8_Task1App.swift */; };
 		0EF0542C293F504100DAEFDF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EF0542B293F504100DAEFDF /* Assets.xcassets */; };
 		0EF0542F293F504100DAEFDF /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EF0542E293F504100DAEFDF /* Preview Assets.xcassets */; };
@@ -23,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E36D8F1293FB4F80012E8B3 /* RealtimeStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeStore.swift; sourceTree = "<group>"; };
+		0E36D8F3293FB7900012E8B3 /* Contact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Contact.swift; sourceTree = "<group>"; };
+		0E36D8F7293FB86F0012E8B3 /* AddContactScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddContactScreen.swift; sourceTree = "<group>"; };
+		0E36D8FA293FBC4C0012E8B3 /* ContactCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactCell.swift; sourceTree = "<group>"; };
 		0E695C26293F548B0007E608 /* StarterScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarterScreen.swift; sourceTree = "<group>"; };
 		0E695C28293F54960007E608 /* HomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		0E695C2A293F54A20007E608 /* SignInScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInScreen.swift; sourceTree = "<group>"; };
@@ -30,6 +40,8 @@
 		0E695C32293F72D50007E608 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		0E695C35293F733F0007E608 /* SessionStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionStore.swift; sourceTree = "<group>"; };
 		0E695C37293F7A960007E608 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0E8587792940ECF500D819F6 /* StorageStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageStore.swift; sourceTree = "<group>"; };
+		0E85877C2940F21600D819F6 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		0EF05424293F503F00DAEFDF /* M6_L8_Task1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = M6_L8_Task1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0EF05427293F503F00DAEFDF /* M6_L8_Task1App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = M6_L8_Task1App.swift; sourceTree = "<group>"; };
 		0EF0542B293F504100DAEFDF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +65,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E36D8F9293FBC390012E8B3 /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				0E36D8FA293FBC4C0012E8B3 /* ContactCell.swift */,
+			);
+			path = cells;
+			sourceTree = "<group>";
+		};
 		0E695C21293F544D0007E608 /* screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +80,7 @@
 				0E695C28293F54960007E608 /* HomeScreen.swift */,
 				0E695C2A293F54A20007E608 /* SignInScreen.swift */,
 				0E695C2C293F54AC0007E608 /* SignUpScreen.swift */,
+				0E36D8F7293FB86F0012E8B3 /* AddContactScreen.swift */,
 			);
 			path = screens;
 			sourceTree = "<group>";
@@ -77,16 +98,27 @@
 			isa = PBXGroup;
 			children = (
 				0E695C32293F72D50007E608 /* User.swift */,
+				0E36D8F3293FB7900012E8B3 /* Contact.swift */,
 			);
 			path = model;
 			sourceTree = "<group>";
 		};
-		0E695C34293F73300007E608 /* Network */ = {
+		0E695C34293F73300007E608 /* network */ = {
 			isa = PBXGroup;
 			children = (
 				0E695C35293F733F0007E608 /* SessionStore.swift */,
+				0E36D8F1293FB4F80012E8B3 /* RealtimeStore.swift */,
+				0E8587792940ECF500D819F6 /* StorageStore.swift */,
 			);
-			path = Network;
+			path = network;
+			sourceTree = "<group>";
+		};
+		0E85877B2940F20300D819F6 /* helper */ = {
+			isa = PBXGroup;
+			children = (
+				0E85877C2940F21600D819F6 /* ImagePicker.swift */,
+			);
+			path = helper;
 			sourceTree = "<group>";
 		};
 		0EF0541B293F503F00DAEFDF = {
@@ -110,7 +142,9 @@
 		0EF05426293F503F00DAEFDF /* M6_L8_Task1 */ = {
 			isa = PBXGroup;
 			children = (
-				0E695C34293F73300007E608 /* Network */,
+				0E85877B2940F20300D819F6 /* helper */,
+				0E36D8F9293FBC390012E8B3 /* cells */,
+				0E695C34293F73300007E608 /* network */,
 				0E695C31293F72CC0007E608 /* model */,
 				0E695C21293F544D0007E608 /* screens */,
 				0EF05427293F503F00DAEFDF /* M6_L8_Task1App.swift */,
@@ -265,11 +299,17 @@
 				0EF05431293F504100DAEFDF /* Persistence.swift in Sources */,
 				0E695C29293F54960007E608 /* HomeScreen.swift in Sources */,
 				0E695C2D293F54AC0007E608 /* SignUpScreen.swift in Sources */,
+				0E85877A2940ECF500D819F6 /* StorageStore.swift in Sources */,
+				0E36D8FB293FBC4C0012E8B3 /* ContactCell.swift in Sources */,
 				0EF05434293F504100DAEFDF /* M6_L8_Task1.xcdatamodeld in Sources */,
+				0E36D8F2293FB4F80012E8B3 /* RealtimeStore.swift in Sources */,
 				0E695C33293F72D50007E608 /* User.swift in Sources */,
+				0E36D8F4293FB7900012E8B3 /* Contact.swift in Sources */,
 				0E695C36293F733F0007E608 /* SessionStore.swift in Sources */,
 				0EF05428293F503F00DAEFDF /* M6_L8_Task1App.swift in Sources */,
 				0E695C27293F548B0007E608 /* StarterScreen.swift in Sources */,
+				0E85877D2940F21600D819F6 /* ImagePicker.swift in Sources */,
+				0E36D8F8293FB86F0012E8B3 /* AddContactScreen.swift in Sources */,
 				0E695C2B293F54A20007E608 /* SignInScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +442,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"M6_L8_Task1/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "camera description.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "photos description.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -431,6 +473,8 @@
 				DEVELOPMENT_ASSET_PATHS = "\"M6_L8_Task1/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "camera description.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "photos description.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
